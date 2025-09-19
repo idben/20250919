@@ -21,4 +21,7 @@
   input{
     @apply bg-white p-1 border-[1px] border-stone-200 rounded
   }
+  button{
+    all: revert;
+  }
 }
