@@ -28,7 +28,7 @@
 
 @layer components{
   .btn{
-    @apply bg-gray-300 border border-gray-400 px-4 py-1 rounded cursor-pointer select-none inline-block
+    @apply bg-gray-300 border border-gray-400 px-4 py-1 rounded cursor-pointer select-none inline-block text-[14px]
   }
   .btn:disabled{
     @apply bg-gray-200 border-gray-100 cursor-not-allowed text-gray-300
