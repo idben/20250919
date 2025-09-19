@@ -30,10 +30,23 @@
     <input class="w-full" type="text" placeholder="輸入帳號">
   </div>
 
-  <label class="flex items-center gap-1">
-    <input type="checkbox">
+  <label class="flex items-center gap-1 select-none">
+    <input type="checkbox" class="size-6 transition-transform
+      focus:ring-0
+      indeterminate:accent-yellow-500
+      checked:accent-rose-500
+      checked:scale-150
+      ">
     <div>接受條款</div>
   </label>
 
+  <script>
+    const checkbox = document.querySelector("input[type=checkbox]");
+
+    document.querySelector("button").addEventListener("click", ()=>{
+      checkbox.indeterminate = !checkbox.indeterminate
+      
+    })
+  </script>
 </body>
 </html>
