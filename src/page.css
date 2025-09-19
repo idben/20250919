@@ -28,7 +28,9 @@
   a{
     @apply border-b-4 border-blue-400 text-sky-300
   }
-  a:visited{}
+  a:visited{
+    @apply border-b-4 border-purple-500 text-violet-300
+  }
   a:hover{}
   a:active{}
 }
