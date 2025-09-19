@@ -34,7 +34,9 @@
   a:hover{
     @apply rounded-full px-0.5 bg-blue-400 text-white border-none;
   }
-  a:active{}
+  a:active{
+    @apply bg-rose-400;
+  }
 }
 
 @layer components{
