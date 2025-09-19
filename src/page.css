@@ -25,7 +25,9 @@
   button{
     all: revert;
   }
-  a{}
+  a{
+    @apply border-b-4 border-blue-400 text-sky-300
+  }
   a:visited{}
   a:hover{}
   a:active{}
