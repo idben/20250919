@@ -26,12 +26,14 @@
     all: revert;
   }
   a{
-    @apply border-b-4 border-blue-400 text-sky-300
+    @apply border-b-4 border-blue-400 text-sky-300;
   }
   a:visited{
-    @apply border-b-4 border-purple-500 text-violet-300
+    @apply border-b-4 border-purple-500 text-violet-300;
   }
-  a:hover{}
+  a:hover{
+    @apply rounded-full px-0.5 bg-blue-400 text-white border-none;
+  }
   a:active{}
 }
 
@@ -39,12 +41,12 @@
   .btn{
     @apply bg-gray-300 border border-gray-400 px-4 py-1 rounded cursor-pointer select-none inline-block text-[14px]
     hover:bg-gray-400 hover:border-gray-500 hover:text-white
-    focus:outline-3 focus:outline-stone-300
+    focus:outline-3 focus:outline-stone-300;
   }
   .btn:disabled{
-    @apply bg-gray-200 border-gray-100 cursor-not-allowed text-gray-300
+    @apply bg-gray-200 border-gray-100 cursor-not-allowed text-gray-300;
   }
   .btn.disabled{
-    @apply bg-gray-200 border-gray-100 cursor-not-allowed text-gray-300
+    @apply bg-gray-200 border-gray-100 cursor-not-allowed text-gray-300;
   }
 }
