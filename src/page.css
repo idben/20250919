@@ -25,6 +25,10 @@
   button{
     all: revert;
   }
+  a{}
+  a:visited{}
+  a:hover{}
+  a:active{}
 }
 
 @layer components{
